@@ -1,0 +1,40 @@
+{
+    "expo": {
+        "name": "wimet",
+        "slug": "wimet",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/images/icon.png",
+        "scheme": "com.wimet.wimet",
+        "userInterfaceStyle": "automatic",
+        "splash": {
+            "image": "./assets/images/splash.png",
+            "resizeMode": "cover",
+            "backgroundColor": "#ffffff"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": ["**/*"],
+        "ios": {
+            "supportsTablet": true,
+            "bundleIdentifier": "com.wimet.wimet"
+        },
+        "android": {
+            "package": "com.wimet.wimet",
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/images/icon.png",
+                "backgroundColor": "#ffffff"
+            }
+        },
+        "web": {
+            "favicon": "./assets/images/favicon.png",
+            "bundler": "metro"
+        },
+        "extra": {
+            "eas": {
+                "projectId": "3e92d82f-f6f5-428f-bc33-f0075212ffcd"
+            }
+        }
+    }
+}
